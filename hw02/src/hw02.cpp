@@ -9,7 +9,7 @@ std::string hw02(std::string input_str)
         }
     }
 
-    newString=input_str;
+    newString = input_str;
 
     for (int i = 0;i < newString.length()-1;i++) {
         for (int n = i+1; n<newString.length();n++) {
